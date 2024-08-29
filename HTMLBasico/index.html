@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Regístrate y sé parte de la gran comunidad Cat lovers</h1>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Información</legend>
+                <!-- Información personal -->
+                <div class="seccion">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                </div>
+                <div class="seccion">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido">
+                </div>
+                <div class="seccion">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad">
+                </div>
+                <div class="seccion">
+                    <label for="Fecha_nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="Fecha_nacimiento" name="Fecha_nacimiento">
+                </div>
+                <!-- Selección de género -->
+                <div class="seccion">
+                    <label for="genero">Género:</label><br>↩
+                    <input type="radio" id="genero" name="genero" value="genero">
+                    <label for="femenino">Femenino</label><br>↩
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="masculino">Masculino</label><br>↩
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="no_decir">Prefiero no decir</label>↩
+                    <input type="radio" id="no_decir" name="genero" value="no_decir">
+                </div>
+                <!-- Información de contacto -->↩
+                <div class="seccion">↩
+                    <label for="correo">Correo:</label>↩
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo">
+                </div>
+                <!-- Comentarios -->
+                <div class="seccion">
+                    <h5>Déjanos un comentario</h5>
+                    <textarea id="comentario" name="comentario"></textarea>
+                </div>
+                <!-- Suscripción al boletín -->
+                <div class="seccion">↩
+                    <input type="checkbox" id="boletin" name="boletin">
+                    <label for="boletin">Suscribirse al boletín de noticias</label>
+                </div>
+                <!-- Posición de interés -->
+                <div class="seccion">↩
+                    <h5>Escoja qué posición le interesaría utilizar</h5>
+                    <label for="posición">Posición de interés:</label>
+                    <select id="posición" name="posición">
+                        <option value="editor">Editor</option>
+                        <option value="administrador">Administrador</option>
+                        <option value="lector">Lector</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <!-- Botón de enviar -->
+                <div class="seccion">
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
